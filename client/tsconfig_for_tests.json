@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es2018",
+        "noImplicitAny": true,
+        "outDir": "../test_client/",
+        "allowJs": true,
+        "sourceMap": true
+    },
+    "include": [
+        "**/*"
+    ]
+}
+

@@ -1,0 +1,4 @@
+
+https://github.com/koajs/static/issues/130 --> fix the trailing '/' issue, se l'utente non mette il carattere '/' finale e se il folder contiene un index.html
+il browser pensa che sia un file e il "relative" serving of files non funziona perche chiede la directory precedente. Make sure always do absolute path! 
+
