@@ -23,11 +23,18 @@
   },
   "homepage": "https://github.com/panManfredini/node_sandbox#readme",
   "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "@types/koa-bodyparser": "^4.2.2",
     "brick-element": "^0.1.1",
+    "grpc": "^1.21.1",
+    "grpc-promise": "^1.4.0",
     "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
-    "koa-static": "^5.0.0"
+    "koa-sse-stream": "^0.1.1",
+    "koa-static": "^5.0.0",
+    "node-opcua": "^0.7.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -37,7 +44,10 @@
     "@types/koa-static": "^4.0.0",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
+    "eslint": "^5.16.0",
     "http-server": "^0.11.1",
+    "jshint": "^2.10.2",
+    "jslint": "^0.12.1",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.4",
     "ts-loader": "^5.2.1",
