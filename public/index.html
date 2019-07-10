@@ -5,22 +5,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
   </head>
   <body>
-<div class="container" style="margin-top:100px; width: 400px;">
+<div class="container" style="margin-top:100px; width: 60%;">
   <h1 class="title"> Test OPC variables</h1>
 <div class="box has-text-centered " >
   <div>
       <div class="tags has-addons are-large" >
-          <span class="tag"> Set point value:  </span> 
-          <span id="var2" class="tag is-primary"> NONE</span>
-      </div>
+        <span class="tag"> Valve state  </span> 
+        <span id="valve" class="tag is-warning"> ? </span>
+    </div>
       <div class="tags has-addons are-large" >
         <span class="tag"> Monitored value:  </span> 
         <span class="tag is-info" id="var1">NONE</span> 
         </div>
-          <input placeholder="set variable2" type="text" id="inpt">
+        <div class="field">
+          <div class="control">
+          <input class="input is-primary" placeholder="set variable2" type="text" id="inpt">
+          </div>
+          </div>
+          <div class="field">
+            <div class="control">
+          <input class="input is-info" placeholder="password" type="password" id="pw"> 
+        </div>
+      </div>
+          <div class="field">
+            <div class="control">
+          <button id="btn" class="button is-info"> Toggle Valve State</button> 
+        </div>
+      </div>
         </div>
     </div>
+
   </div>
+
   </body>
 
   <script src="/js/sse.js"></script>

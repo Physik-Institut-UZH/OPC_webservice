@@ -26,6 +26,7 @@
     "@grpc/proto-loader": "^0.5.1",
     "@types/koa-bodyparser": "^4.2.2",
     "brick-element": "^0.1.1",
+    "date-time": "^3.1.0",
     "grpc": "^1.21.1",
     "grpc-promise": "^1.4.0",
     "koa": "^2.5.3",
